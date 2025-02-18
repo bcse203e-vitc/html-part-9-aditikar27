@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Home Page</title>
+        <link rel="stylesheet" href="styles.css">
+        <script src="script.js"></script>
+    </head>
+    <body>
+        <h1>Welcome to a Random Appointment Booking Website</h1>
+        <div>
+            <ul>
+                <li>
+                    Doctor 
+                    <button id="booknow" onclick="bookNow()">Book Now! </button>
+                </li>
+                <li>
+                    Salon 
+                    <button id="booknow" onclick="bookNow()">Book Now! </button>
+                </li>
+                <li>
+                    Car Service 
+                    <button id="booknow" onclick="bookNow()">Book Now! </button>
+                </li>
+                <li>
+                    Repair 
+                    <button id="booknow" onclick="bookNow()">Book Now! </button>
+                </li>
+            </ul>
+        </div>
+        <div id="Form">
+            <form>
+                <label for="Name">Full Name</label><br>
+                <input type="text" id="Name" required>
+                <br><br>
+                <label for="mail">Email</label><br>
+                <input type="email" id="mail" required>
+                <br><br>
+                <label for="phno">Phone Number</label><br>
+                <input type="tel" id="phno" required>
+                <br><br>
+                <label for="services">Select Service</label><br>
+                <select id="services">
+                    <option>Doctor</option>
+                    <option>Salon</option>
+                    <option>Car Service</option>
+                    <option>Repair</option>
+                </select>
+                <br><br>
+                <label for="date">Date and Time</label><br>
+                <input type="date" id="date" required>
+                <br><br>
+                <input type="checkbox" id="t&c">
+                <label for="t&c" required >Agree to Terms and Conditions</label>
+                <br><br>
+                <button type="submit">Submit</button>
+            </form>
+        </div>
+    </body>
+</html>
